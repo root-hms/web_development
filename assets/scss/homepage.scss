@@ -1,0 +1,218 @@
+.desktop{
+    display: none !important;
+}
+
+.homepage{
+    .videoSlider{
+        height: auto;
+        position: relative;
+    }
+}
+
+.about{
+    margin-top: 1%;
+    .divider{
+        height: 70px;
+        position: relative;
+        .customShapeDivider{
+            left: 0;
+            line-height: 0;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            svg{
+                display: block;
+                height: 70px;
+                position: relative;
+                width: calc(100% + 1.3px);
+            }
+            .shape-fill {
+                fill:$primaryColor;
+            }
+        }
+    }
+    .container{
+        .row{
+            p{
+                font-weight: 400;
+                font-size: 1rem;
+                padding: 10px;
+                margin-left: 3%;
+            }
+            .buttonContainer{
+                margin-left: -10%;
+                margin-top: -5%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .customShapeDividerII .shape-fill{
+        fill: $secondaryColor;
+    }
+}
+
+.menu{
+    background-color: $grayLightColor;
+    height: 100%;
+    width: 100%;
+    h2{
+        color: $blackColor;
+        font-size: 1.5rem;
+        padding-top: 5%;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+    .menuContainer{
+        padding: 15px;
+    }
+    .col-sm-12{
+        .card{
+            cursor: pointer;
+            display: inline-block;
+            margin-bottom: 7%;
+            margin-left: 4%;
+            text-decoration: none;
+            transition-duration: 0.3s;
+            transform: perspective(1px) translateZ(0);
+            transition-property: box-shadow, transform;
+            vertical-align: middle;
+            width: 100%;
+            img{
+                height: 200px;
+                width: 100%;
+            }
+            .card-body{
+                background-color: #ffffff;
+                box-shadow: 2px 2px $grayDarkColor;
+                color: $blackColor;
+                .card-text{
+                    font-size: 1rem;
+                }
+            }    
+        }
+        &:hover, &:focus, &:active{
+            transform: scale(1.1);
+        }
+    }
+}
+
+.divider{
+    .customShapeDividerIII{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+        z-index: 105;
+        svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 45px;
+        }
+        .shape-fill {
+            fill: $grayLightColor;
+        }
+    }
+    .customShapeDividerIV{
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        z-index: 20;
+        svg {
+            position: relative;
+            display: none;
+            width: calc(100% + 1.3px);
+            height: 184px;
+        }
+        .shape-fill {
+            display: none;
+            fill: $secondaryColor;
+        }
+    }
+    .customShapeDividerV{
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        svg {
+            position: relative;
+            display: none;
+            width: calc(100% + 1.3px);
+            height: 68px;
+        }
+        .shape-fill{
+            display: none;
+            fill: $whiteColor;
+        } 
+    }
+}
+
+.events{
+    height: 350px;
+    .img{
+        background-image: url('../images/events.jpg');
+        display: none;
+        height: 125%;
+        z-index: 100;    
+    }
+    .content{
+        background-color: $secondaryColor;
+        h2{
+            font-size: 1.5rem;
+            margin-top: 15%;
+            margin-left: -3%;
+            text-align: center;
+            width: 100%;
+        }
+        .readMoreButton{
+            margin-left: 7%;
+        }
+        p{
+            font-size: 1rem;
+            margin-top: 5%;
+            padding: 5px;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+    }
+}
+
+.giftCards{
+    .img{
+        background-image: url('../images/gift-cards.jpg');
+        display: none;
+        height: 125%;
+        z-index: 100;    
+    }
+    .content{
+        h2{
+            font-size: 1.5rem;
+            margin-top: 5%;
+            margin-left: -2%;
+            text-align: center;
+            width: 100%;
+        }
+        p{
+            font-size: 1rem;
+            margin-top: 5%;
+            padding: 5px;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        .readMoreButton{
+            margin-left: 7%;
+        }
+    }
+}

@@ -1,0 +1,190 @@
+.interiorPage{
+    .interiorTop{
+        height: 450px;
+        overflow: hidden;
+        width: 100%;
+        h2{
+            color: $whiteColor;
+            display: block;
+            font-size: 4rem;
+            left: 45%;
+            position: absolute;
+            top: 25%;
+            width: 300px;
+        }
+    }
+    .team{
+        margin-left: -15px;
+        .teamMember{
+            h4{
+                margin-top: 20px;
+            }
+            p{
+                font-size: 1.2rem;
+            }
+            .teamMember__socialNetworks{
+                display: flex;
+                margin-left: 0;
+                margin-top: 12%;
+                margin-bottom: 12%;
+                width: 90%;
+                li{
+                    list-style: none;
+                    a{
+                        color: $blackColor;
+                        cursor: pointer;
+                        font-size: 1.3rem;
+                        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+                        display: inline-block;
+                        vertical-align: middle;
+                        transform: perspective(1px) translateZ(0); 
+                        &:hover, &:focus, &:active{
+                            animation-name: pulseEffect;
+                            animation-duration: 0.3s;
+                            animation-timing-function: linear;
+                            animation-iteration-count: infinite;
+                            animation-direction: alternate;
+                        }               
+                    }
+                }
+            }
+        }
+    }
+    .menues{
+        h3{
+            margin-left: -10px;
+        }
+    }
+    .lunchMenu,
+    .drinkshMenu{
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: -10px;
+    }
+    .lunchMenu{
+        background-image: url('../images/food.jpg');
+        height: 345px;
+    }
+    .drinkshMenu{
+        background-image: url('../images/drinks.jpg');
+        height: 500px;
+        margin-top: -32px;
+        margin-left: -71px;
+    }
+    .eventsSlider{
+        height: 650px;
+        .carousel-indicators{
+            margin: 0;
+            padding: 0;
+        }
+        .allImages{
+            background-position: center;
+            background-size: cover;
+        }
+        .img1{
+            background-image: url('../images/facilities1.jpg');
+        }
+        .img2{
+            background-image: url('../images/facilities2.jpg');
+        }
+        .img3{
+            background-image: url('../images/facilities3.jpg');
+        } 
+    }
+    .carousel-item{
+        height: 600px;
+    }
+    .members{
+        height: 450px;
+        position: relative;
+    }
+    .accordion-button:not(.collapsed){
+        color: $whiteColor;
+        background-color: $grayDarkColor;
+    }
+    .accordion-button:focus{
+        border-color: inherit;
+        -webkit-box-shadow: none;
+        box-shadow: none;  
+    }
+    .accordion-item{
+        .accordion-header{
+            .accordion-button{
+                font-family: $primaryFont;
+                font-size: 1.5rem;
+                text-align: justify;
+            }
+        }
+        .accordion-collapse{
+            .accordion-body{
+                font-family: $primaryFont;
+                font-size: 1.2rem;
+                text-align: justify;
+            }
+        }
+    }
+    .mainContent{
+        .row{
+            .formContainer{
+                .formContainer__contactForm{
+                    label{
+                        font-size: 1.2rem;
+                        font-weight: bold;               
+                    }
+                    input{
+                        border-radius: 10px;
+                        border: 2px solid #eee;
+                        box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+                        margin-bottom: 25px;
+                        margin-top: 10px;
+                        padding: 10px;
+                    }
+                    textarea{
+                        border:0;
+                        border-radius:15px;
+                        box-shadow:4px 4px 10px rgba(0,0,0,0.20);
+                        height:150px;
+                        margin-bottom: 15px;
+                        margin-top: 10px;
+                        padding:15px;
+                        resize: vertical;
+                        width:98%;     
+                    }
+                    input[type=submit]{
+                        background-color: $primaryColor;
+                        color: $whiteColor;
+                        cursor: pointer;
+                        font-size: 1.2rem;
+                        font-weight: bolder;
+                        text-transform: uppercase;
+                        &:hover{
+                            background-color:  $secondaryColor;
+                            color: $whiteColor;
+                        }
+                    }
+                }
+            }
+            .information{
+                .information__email, .information__phone{
+                    text-decoration: none;
+                    color: $blackColor;
+                    font-size: 1.5rem;
+                    margin-right: 5rem;
+                }
+            }
+        }
+        .mainContent__moreInfo{
+            img{
+                float: left;
+                height: 350px;
+                width: auto;
+                margin-right: 2rem;
+                margin-bottom: .7rem;
+            }
+            p{
+                margin-bottom: 3rem;
+            }
+        }
+    }
+}
+
