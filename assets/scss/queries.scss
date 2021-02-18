@@ -1,13 +1,38 @@
 @media(min-width: 279px){
+
+    /* Homepage */
+
     body{
         padding-top: 8.3rem;
     }
     .about{
         margin-top: -0.7rem;
-    }    
+    } 
+    
+    /* Interior Page */
+
+    .interiorPage{
+        .interiorTop{
+            h2{
+                font-size: 3rem;
+                left: 5rem;
+                top: 12rem;
+            }
+        }
+    }   
+    footer{
+        .copy{
+            font-size: 0.7rem;
+            margin-left: 15%;
+        }
+    } 
+    
 }
 
 @media(min-width: 319px){
+
+    /* Homepage */
+
     .about{
         .container{
             .row{
@@ -26,9 +51,53 @@
             margin-left: 15%;
         }
     }
+
+    /* Interior Page */
+
+    .interiorPage{
+        .interiorTop{
+            h2{
+                font-size: 3rem;
+                left: 6rem;
+                top: 13rem;
+            }
+            .giftTitle{
+                left: 4rem;
+            }
+        }
+        .lunchTitle{
+            margin-left: 3rem;
+            font-size: 1.7rem;
+        }
+        .drinksTitle{
+            margin-left: 5rem;
+            font-size: 1.7rem;
+        }
+        .lunchMenu{
+            height: 200px;
+            margin-left: 15px;
+        }
+        .drinkshMenu{
+            height: 230px;
+            margin-top: 0;
+            margin-left: 12px;
+            margin-bottom: -30px;
+        } 
+        .mainContent{
+            .mainContent__moreInfo{
+                img{
+                    height: 195px;
+                }
+            }            
+        }                   
+    }
+
 }
 
 @media(min-width: 359px){
+
+    /* Homepage */
+
     .about{
         .divider{
             margin-top: -1rem;
@@ -44,10 +113,57 @@
     }
     .events{
         height: 415px;
-    }   
+    } 
+    footer{
+        .copy{
+            font-size: 1rem;
+            margin-left: 13%;
+        }
+    }
+    
+    /* Interior Page */
+
+    .interiorPage{
+        .interiorTop{
+            h2{
+                font-size: 3rem;
+                left: 7rem;
+                top: 14rem;
+            }
+        }
+        .lunchTitle{
+            margin-left: 3rem;
+            font-size: 2rem;
+        }
+        .drinksTitle{
+            margin-left: 5rem;
+            font-size: 2rem;
+        }      
+        .lunchMenu{
+            height: 200px;
+            margin-left: 15px;
+        }
+        .drinkshMenu{
+            height: 230px;
+            margin-top: 0;
+            margin-left: 7px;
+            margin-bottom: 0;
+        }
+        .mainContent{
+            .mainContent__moreInfo{
+                img{
+                    height: 220px;
+                }
+            }            
+        }          
+    }    
+
 }
 
 @media(min-width: 374px){
+
+    /* Homepage */
+
     .about{
         margin-top: -1.1rem;
         .divider{
@@ -63,9 +179,45 @@
             margin-left: 12%;
         }
     }
+
+    /* Interior Page */
+
+    .interiorPage{
+        .lunchTitle{
+            margin-left: 4rem;
+        }
+        .drinksTitle{
+            margin-left: 5rem;
+        }      
+        .lunchMenu{
+            height: 215px;
+        }
+        .drinkshMenu{
+            height: 230px;
+            margin-top: 0;
+            margin-left: 10px;
+            margin-bottom: 0;
+        }
+        .interiorTop{
+            .giftTitle{
+                left: 5rem;
+            }
+        }
+        .mainContent{
+            .mainContent__moreInfo{
+                img{
+                    height: 232px;
+                }
+            }            
+        }          
+    }     
+
 }
 
 @media(min-width: 410px){
+
+    /* Homepage */
+
     .about{
         margin-top: -2.2rem;
         .divider{
@@ -85,6 +237,45 @@
             margin-left: 15%;
         }  
     }
+
+    /* Interior Page */
+
+    .interiorPage{
+        .interiorTop{
+            h2{
+                font-size: 3rem;
+                left: 9rem;
+                top: 15rem;
+            }
+        }
+        .lunchTitle{
+            margin-left: 5rem;
+        }
+        .drinksTitle{
+            margin-left: 7rem;
+        }          
+        .lunchMenu{
+            height: 231px;
+            margin-left: 20px;
+        }   
+        .drinkshMenu{
+            margin-left: 15px;
+            margin-bottom: 25px;
+        }
+        .interiorTop{
+            .giftTitle{
+                left: 6rem;
+            }
+        }
+        .mainContent{
+            .mainContent__moreInfo{
+                img{
+                    height: 255px;
+                }
+            }            
+        }            
+    }   
+
 }
 
 @media(min-width: 413px){
@@ -94,6 +285,13 @@
 }
 
 @media(min-width: 539px){
+
+    /* Homepage */
+    header{
+        .logo{
+            margin-left: 65px;
+        }
+    }
     .about{
         .container{
             .row{
@@ -135,25 +333,77 @@
         }
     }
     footer{
+        .logo{
+            margin-left: 65px;
+        }
         .copy {
-            margin-left: 18%;
+            margin-left: 22%;
             font-size: 1.1rem;
         }
+        .socialNetworks{
+            margin-left: 15%;
+            width: auto;
+        }
     }
+
+    /* Interior Page */
+
+    .interiorPage{
+        .interiorTop{
+            h2{
+                font-size: 3.5rem;
+                left: 12rem;
+                top: 18rem;
+            }
+        }
+        .lunchTitle{
+            margin-left: 9rem;
+        }
+        .drinksTitle{
+            margin-left: 11rem;
+        }          
+        .lunchMenu{
+            height: 300px;
+            margin-left: 35px;
+        }   
+        .drinkshMenu{
+            height: 295px;
+            margin-left: 33px;
+            margin-bottom: 25px;
+        }
+        .interiorTop{
+            .giftTitle{
+                left: 9rem;
+            }
+        }
+        .mainContent{
+            .mainContent__moreInfo{
+                img{
+                    height: 222px;
+                }
+            }            
+        }                  
+    } 
+
 }
 
 @media(min-width: 767px){
+
+    /* Homepage */
+
     body{
         padding-top: 11.5rem;
     }
     hr{
         display: none;
     }
-    .logo{
-        width: 50%;
-        margin-left: 10rem;
-        margin-top: 1rem;
-    }     
+    header{
+        .logo{
+            width: 50%;
+            margin-left: 10rem;
+            margin-top: 1rem;
+        } 
+    }    
     .navbar-nav{
         .nav-item{
             a{
@@ -242,17 +492,78 @@
         }
     }
     footer{
+        .logo{
+            width: 50%;
+            margin-left: 10rem;
+            margin-top: 1rem;
+        }         
         .copy {
             margin-left: 24%;
             font-size: 1.3rem;
         }
         .socialNetworks{
-            margin-left: 13%;
+            margin-left: 23%;
+            width: auto;
         }
     }
+
+    /* Interior Page */
+
+    .interiorPage{
+        .interiorTop{
+            height: 370px;
+            h2{
+                font-size: 4rem;
+                left: 19rem;
+                top: 20rem;
+            }
+        }
+        p{
+            font-size: 1.5rem;
+        }
+        .title{
+            font-size: 2.5rem;
+        }
+        .lunchTitle{
+            margin-left: 6rem;
+        }
+        .drinksTitle{
+            margin-left: 7rem;
+        }          
+        .lunchMenu{
+            height: 250px;
+            margin-left: 35px;
+        }   
+        .drinkshMenu{
+            height: 235px;
+        }
+        .members{
+            .becomeVIP{
+                h4{
+                    font-size: 2rem;
+                }
+            }
+        }
+        .interiorTop{
+            .giftTitle{
+                left: 14rem;
+            }
+        }
+        .mainContent{
+            .mainContent__moreInfo{
+                img{
+                    height: 322px;
+                }
+            }            
+        }         
+    }   
+
 }
 
 @media(min-width: 1023px){
+
+    /* Homepage */
+
     .mobile{
         display: none !important;
     }
@@ -266,11 +577,13 @@
     body{
         margin-top: -12.5%;
     }
-    .logo{
-        width: 40%;
-        margin-left: 0;
-        margin-top: -3px;
-    } 
+    header{
+        .logo{
+            width: 40%;
+            margin-left: 0;
+            margin-top: -3px;
+        } 
+    }
     .navbar-nav{
         .nav-item{
             .selected{
@@ -371,6 +684,11 @@
         }
     } 
     footer{
+        .logo{
+            width: 40%;
+            margin-left: 0;
+            margin-top: -3px;
+        }         
         .copy{
             margin-left: 1rem;
             font-size: 1.2rem;
@@ -381,10 +699,63 @@
             margin-top: -7%;
             width: auto;
         }
-    }   
+    }  
+    
+    /* Interior Page */
+
+    .interiorPage{
+        .interiorTop{
+            height: 370px;
+            h2{
+                font-size: 4.5rem;
+                left: 25rem;
+                top: 13rem;
+            }
+        }
+        .title{
+            font-size: 3rem;
+        }
+        .team{
+            .teamMember{
+                .teamMember__socialNetworks{
+                    margin-left: -1.5rem;
+                }
+            }
+        }
+        .lunchTitle{
+            margin-left: 8rem;
+        }
+        .drinksTitle{
+            margin-left: 10rem;
+        }               
+        .lunchMenu{
+            height: 345px;
+            margin-left: 0;
+        }
+        .drinkshMenu{
+            height: 305px;
+            margin-left: 10px;
+        }  
+        .interiorTop{
+            .giftTitle{
+                left: 22rem;
+            }
+        }
+        .mainContent{
+            .mainContent__moreInfo{
+                img{
+                    height: 400px;
+                }
+            }            
+        }               
+    }  
+
 }
 
 @media(min-width: 1500px){
+
+    /* Homepage */
+
     .navbar-nav{
         .nav-item{
             a{
@@ -464,5 +835,52 @@
         .copy{
             font-size: 1.3rem;
         }  
-    }        
+    }  
+    
+    /* Interior Page */
+
+    .mainContentDesktop{
+        display: block !important;
+    }
+
+    .mainContentMobile{
+        display: none;
+    }
+
+    .interiorPage{
+        .interiorTop{
+            height: 450px;
+            h2{
+                font-size: 4.5rem;
+                left: 47rem;
+                top: 13rem;
+            }
+        }
+        .title{
+            font-size: 3rem;
+        }
+        .lunchTitle{
+            font-size: 3rem;
+            margin-left: 7rem;
+        }
+        .drinksTitle{
+            font-size: 3rem;
+            margin-left: 10rem;
+        }               
+        .lunchMenu{
+            height: 400px;
+            margin-left: 0;
+        }
+        .drinkshMenu{
+            height: 400px;
+            margin-left: 10px;
+            margin-bottom: 4rem;
+        }  
+        .interiorTop{
+            .giftTitle{
+                left: 43rem;
+            }
+        }              
+    }      
+
 }

@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../assets/css/style.css">
         <link rel="icon" href="https://i.postimg.cc/W1WQXKLZ/logo.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <title>Nick's Restaurant - Events</title>
         <meta name="description" content="We don't just make food, we create unique moments, get to know our establishments.">
         <meta name="keywords" content="restaurant,location,facilities,members,vip">
@@ -53,10 +54,10 @@
             <img src="https://i.postimg.cc/Dz4Y5wcV/interior-top.jpg" alt="Interior Banner Image">
             <h2>Events</h2>
         </div>
-        <div class="mainContent container mt-5">
+        <div class="mainContentDesktop mainContent container mt-5">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magnam architecto est illo natus omnis, animi temporibus blanditiis ipsam voluptas repudiandae exercitationem cum modi quidem non nesciunt cupiditate atque officiis!</p>
-            <h3>Our Facilities</h3>
-            <div class="row eventsSlider">
+            <h3 class="title">Our Facilities</h3>
+            <div class="row eventsSlider animate__animated animate__fadeInLeft">
                 <div class="col-md-12">
                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                         <ol class="carousel-indicators">
@@ -83,10 +84,10 @@
                     </div>                      
                 </div>
             </div>
-            <h3>VIP Members</h3>
-            <div class="members">
+            <h3 class="title">VIP Members</h3>
+            <div class="members animate__animated animate__fadeInRight">
                 <div class="becomeVIP">
-                    <h4 class="ms-4">Why become VIP?</h4>
+                    <h4 class="ms-4 mb-4">Why become VIP?</h4>
                     <div class="row container">
                         <div class="col-md-12">
                             <div class="accordion" id="accordionExample">
@@ -133,6 +134,85 @@
                 </div>           
             </div>            
         </div>
+        <div class="mainContentMobile mainContent container mt-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magnam architecto est illo natus omnis, animi temporibus blanditiis ipsam voluptas repudiandae exercitationem cum modi quidem non nesciunt cupiditate atque officiis!</p>
+            <h3 class="title">Our Facilities</h3>
+            <div class="row eventsSlider">
+                <div class="col-md-12">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active allImages img1">
+                          </div>
+                          <div class="carousel-item allImages img2">
+                          </div>
+                          <div class="carousel-item allImages img3">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </a>
+                    </div>                      
+                </div>
+            </div>
+            <h3 class="title">VIP Members</h3>
+            <div class="members">
+                <div class="becomeVIP">
+                    <h4 class="ms-4 mb-4">Why become VIP?</h4>
+                    <div class="row container">
+                        <div class="col-md-12">
+                            <div class="accordion" id="accordionExampleII">
+                                <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Accordion Item #1
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Accordion Item #2
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Accordion Item #3
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
+                                </div>
+                            </div>        
+                        </div>
+                    </div>
+                </div>           
+            </div>
+        </div>        
         <div class="location d-flex justify-content-center">
             <div class="row">
                 <div class="col-12">
@@ -190,6 +270,6 @@
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
             AOS.init();
-        </script>        
+        </script>      
     </body>
 </html>

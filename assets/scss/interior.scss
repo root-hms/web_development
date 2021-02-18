@@ -1,33 +1,43 @@
 .interiorPage{
     .interiorTop{
-        height: 450px;
         overflow: hidden;
         width: 100%;
         h2{
             color: $whiteColor;
             display: block;
-            font-size: 4rem;
-            left: 45%;
             position: absolute;
-            top: 25%;
-            width: 300px;
+            width: auto;
         }
     }
+    .mainContentDesktop{
+        display: none;
+    }
+    .title{
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
     .team{
-        margin-left: -15px;
         .teamMember{
             h4{
                 margin-top: 20px;
+                text-align: center;
+            }
+            h5{
+                text-align: center;
+            }
+            img{
+                border-radius: 50%;
             }
             p{
                 font-size: 1.2rem;
             }
             .teamMember__socialNetworks{
                 display: flex;
-                margin-left: 0;
                 margin-top: 12%;
                 margin-bottom: 12%;
                 width: 90%;
+                text-align: center;
                 li{
                     list-style: none;
                     a{
@@ -50,11 +60,16 @@
             }
         }
     }
-    .menues{
-        h3{
-            margin-left: -10px;
-        }
+    .lunchTitle{
+        margin-left: 1rem;
+        font-size: 2rem;
+        width: auto;
     }
+    .drinksTitle{
+        margin-left: 3rem;
+        font-size: 2rem;
+        width: auto;
+    }    
     .lunchMenu,
     .drinkshMenu{
         background-repeat: no-repeat;
@@ -63,16 +78,19 @@
     }
     .lunchMenu{
         background-image: url('../images/food.jpg');
-        height: 345px;
+        height: 150px;
+        margin-left: 1rem;
     }
     .drinkshMenu{
         background-image: url('../images/drinks.jpg');
-        height: 500px;
-        margin-top: -32px;
-        margin-left: -71px;
+        height: 160px;
+        margin-left: 1rem;
     }
     .eventsSlider{
-        height: 650px;
+        height: 630px;
+        #carouselExampleIndicators{
+            margin-left: .7rem;
+        }
         .carousel-indicators{
             margin: 0;
             padding: 0;
@@ -95,8 +113,15 @@
         height: 600px;
     }
     .members{
-        height: 450px;
+        height: auto;
         position: relative;
+        margin-bottom: 3rem;
+        .becomeVIP{
+            h4{
+                width: auto;
+                font-size: 1.7rem;
+            }
+        }
     }
     .accordion-button:not(.collapsed){
         color: $whiteColor;
@@ -176,7 +201,7 @@
         .mainContent__moreInfo{
             img{
                 float: left;
-                height: 350px;
+                height: 165px;
                 width: auto;
                 margin-right: 2rem;
                 margin-bottom: .7rem;
@@ -187,4 +212,3 @@
         }
     }
 }
-

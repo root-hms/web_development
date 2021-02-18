@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../assets/css/style.css">
         <link rel="icon" href="https://i.postimg.cc/W1WQXKLZ/logo.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <title>Nick's Restaurant - Contact</title>
         <meta name="description" content="Do not hesitate to contact us, our professionals will help you shortly">
         <meta name="keywords" content="contact,professionals,questions,response,quality">
@@ -53,7 +54,35 @@
             <img src="https://i.postimg.cc/Dz4Y5wcV/interior-top.jpg" alt="Interior Banner Image">
             <h2>Contact</h2>
         </div>
-        <div class="mainContent container mt-5">
+        <div class="mainContentDesktop mainContent container mt-5">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magnam architecto est illo natus omnis, animi temporibus blanditiis ipsam voluptas repudiandae exercitationem cum modi quidem non nesciunt cupiditate atque officiis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magnam architecto est illo natus omnis, animi temporibus blanditiis ipsam voluptas repudiandae exercitationem cum modi quidem non nesciunt cupiditate atque officiis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magnam architecto est illo natus omnis, animi temporibus blanditiis ipsam voluptas repudiandae exercitationem cum modi quidem non nesciunt cupiditate atque officiis!</p>
+            <div class="row">
+                <div class="col-md-6 formContainer animate__animated animate__fadeInLeft">
+                    <form action="#" method="POST" id="contactForm" class="formContainer__contactForm">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                        <label for="phone">Phone</label>
+                        <input type="phone" name="phone" id="phone">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="15" cols="50" required></textarea>
+                        <input type="submit" value="Send" name="submit">            
+                    </form>        
+                </div>
+                <div class="col-md-6 animate__animated animate__fadeInRight">
+                    <h3 class="ms-4">Our Information</h3>
+                    <div class="container information">
+                        <a href="mailto:testing@testing.com" class="information__email"><strong>Email: </strong> testing@testing.com</a>
+                        <a href="tel: (+1)000000" class="information__phone"><strong>Phone: </strong> (+1)000000</a>
+                        <p class="information__address"> <strong>Address:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mainContentMobile mainContent container mt-5">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magnam architecto est illo natus omnis, animi temporibus blanditiis ipsam voluptas repudiandae exercitationem cum modi quidem non nesciunt cupiditate atque officiis!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magnam architecto est illo natus omnis, animi temporibus blanditiis ipsam voluptas repudiandae exercitationem cum modi quidem non nesciunt cupiditate atque officiis!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magnam architecto est illo natus omnis, animi temporibus blanditiis ipsam voluptas repudiandae exercitationem cum modi quidem non nesciunt cupiditate atque officiis!</p>
@@ -80,7 +109,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>        
         <div class="location d-flex justify-content-center">
             <div class="row">
                 <div class="col-12">
