@@ -13,7 +13,7 @@
 
     .interiorPage{
         .interiorTop{
-            h2{
+            h1{
                 font-size: 3rem;
                 left: 5rem;
                 top: 12rem;
@@ -56,17 +56,14 @@
 
     .interiorPage{
         .interiorTop{
-            h2{
+            h1{
                 font-size: 3rem;
                 left: 6rem;
                 top: 13rem;
             }
-            .giftTitle{
-                left: 4rem;
-            }
         }
         .lunchTitle{
-            margin-left: 3rem;
+            margin-left: 2.8rem;
             font-size: 1.7rem;
         }
         .drinksTitle{
@@ -74,14 +71,13 @@
             font-size: 1.7rem;
         }
         .lunchMenu{
-            height: 200px;
-            margin-left: 15px;
+            margin-left: 12px;
         }
         .drinkshMenu{
-            height: 230px;
+            height: 175px;
             margin-top: 0;
             margin-left: 12px;
-            margin-bottom: -30px;
+            margin-bottom: 20px;
         } 
         .mainContent{
             .mainContent__moreInfo{
@@ -125,14 +121,14 @@
 
     .interiorPage{
         .interiorTop{
-            h2{
+            h1{
                 font-size: 3rem;
                 left: 7rem;
                 top: 14rem;
             }
         }
         .lunchTitle{
-            margin-left: 3rem;
+            margin-left: 3.3rem;
             font-size: 2rem;
         }
         .drinksTitle{
@@ -140,14 +136,10 @@
             font-size: 2rem;
         }      
         .lunchMenu{
-            height: 200px;
-            margin-left: 15px;
+            margin-left: 30px;
         }
         .drinkshMenu{
-            height: 230px;
-            margin-top: 0;
-            margin-left: 7px;
-            margin-bottom: 0;
+            margin-left: 30px;
         }
         .mainContent{
             .mainContent__moreInfo{
@@ -190,17 +182,17 @@
             margin-left: 5rem;
         }      
         .lunchMenu{
-            height: 215px;
+            height: 214px;
+            margin-left: 12px;
         }
         .drinkshMenu{
-            height: 230px;
-            margin-top: 0;
-            margin-left: 10px;
-            margin-bottom: 0;
+            height: 214px;
+            margin-left: 12px;
+            margin-bottom: 20;
         }
         .interiorTop{
             .giftTitle{
-                left: 5rem;
+                left: 6rem;
             }
         }
         .mainContent{
@@ -242,7 +234,7 @@
 
     .interiorPage{
         .interiorTop{
-            h2{
+            h1{
                 font-size: 3rem;
                 left: 9rem;
                 top: 15rem;
@@ -255,11 +247,10 @@
             margin-left: 7rem;
         }          
         .lunchMenu{
-            height: 231px;
-            margin-left: 20px;
+            margin-left: 30px;
         }   
         .drinkshMenu{
-            margin-left: 15px;
+            margin-left: 30px;
             margin-bottom: 25px;
         }
         .interiorTop{
@@ -279,7 +270,7 @@
 }
 
 @media(min-width: 413px){
-    .menu h2{
+    .menu h1{
         font-size: 1.7rem;
     }
 }
@@ -350,7 +341,7 @@
 
     .interiorPage{
         .interiorTop{
-            h2{
+            h1{
                 font-size: 3.5rem;
                 left: 12rem;
                 top: 18rem;
@@ -367,7 +358,7 @@
             margin-left: 35px;
         }   
         .drinkshMenu{
-            height: 295px;
+            height: 300px;
             margin-left: 33px;
             margin-bottom: 25px;
         }
@@ -512,7 +503,7 @@
     .interiorPage{
         .interiorTop{
             height: 370px;
-            h2{
+            h1{
                 font-size: 4rem;
                 left: 19rem;
                 top: 20rem;
@@ -525,17 +516,18 @@
             font-size: 2.5rem;
         }
         .lunchTitle{
-            margin-left: 6rem;
+            margin-left: 4rem;
         }
         .drinksTitle{
             margin-left: 7rem;
         }          
         .lunchMenu{
-            height: 250px;
-            margin-left: 35px;
+            height: 222px;
+            margin-left: 0;
         }   
         .drinkshMenu{
-            height: 235px;
+            height: 222px;
+            margin-left: 1.5rem;
         }
         .members{
             .becomeVIP{
@@ -706,7 +698,7 @@
     .interiorPage{
         .interiorTop{
             height: 370px;
-            h2{
+            h1{
                 font-size: 4.5rem;
                 left: 25rem;
                 top: 13rem;
@@ -723,18 +715,20 @@
             }
         }
         .lunchTitle{
-            margin-left: 8rem;
+            font-size: 3rem;
+            margin-left: 4rem;
         }
         .drinksTitle{
-            margin-left: 10rem;
+            font-size: 3rem;
+            margin-left: 7rem;
         }               
         .lunchMenu{
-            height: 345px;
             margin-left: 0;
+            height: 306px;
         }
         .drinkshMenu{
-            height: 305px;
             margin-left: 10px;
+            height: 306px;
         }  
         .interiorTop{
             .giftTitle{
@@ -850,9 +844,9 @@
     .interiorPage{
         .interiorTop{
             height: 450px;
-            h2{
+            h1{
                 font-size: 4.5rem;
-                left: 47rem;
+                left: 43rem;
                 top: 13rem;
             }
         }

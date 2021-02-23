@@ -2,7 +2,7 @@
     .interiorTop{
         overflow: hidden;
         width: 100%;
-        h2{
+        h1{
             color: $whiteColor;
             display: block;
             position: absolute;
@@ -74,17 +74,14 @@
     .drinkshMenu{
         background-repeat: no-repeat;
         background-size: contain;
-        margin-left: -10px;
     }
     .lunchMenu{
-        background-image: url('../images/food.jpg');
-        height: 150px;
-        margin-left: 1rem;
+        background-image: url('../images/food.png');
+        height: 175px;
     }
     .drinkshMenu{
-        background-image: url('../images/drinks.jpg');
-        height: 160px;
-        margin-left: 1rem;
+        background-image: url('../images/drinks.png');
+        height: 175px;
     }
     .eventsSlider{
         height: 630px;
